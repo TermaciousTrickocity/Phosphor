@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<types>
+
+  <categories>
+    <category name="Biped"          color="80,220,100"/>
+    <category name="Vehicle"        color="255,150,40"/>
+    <category name="Weapon"         color="240,70,70"/>
+    <category name="Equipment"      color="60,200,220"/>
+    <category name="Garbage"        color="150,120,80"/>
+    <category name="Projectile"     color="255,230,60"/>
+    <category name="Scenery"        color="90,130,240"/>
+    <category name="Machine"        color="180,110,230"/>
+    <category name="Control"        color="230,90,200"/>
+    <category name="Sound Scenery"  color="60,180,160"/>
+    <category name="Creature"       color="170,220,60"/>
+    <category name="Light Fixture"  color="250,245,180"/>
+    <category name="Placeholder"    color="150,150,160"/>
+    <category name="Crate"          color="205,133,63"/>
+    <category name="Effect Scenery" color="240,140,180"/>
+    <category name="Terminal"       color="130,90,255"/>
+    <category name="FX Scenery"     color="255,120,150"/>
+    <category name="Giant"          color="200,60,120"/>
+    <category name="Unknown"        color="110,110,120"/>
+  </categories>
+
+  <enum name="HaloCampaignEvolved">
+    <type byte="0"  category="Biped"/>
+    <type byte="1"  category="Vehicle"/>
+    <type byte="2"  category="Weapon"/>
+    <type byte="3"  category="Equipment"/>
+    <type byte="4"  category="Terminal"/>
+    <type byte="5"  category="Projectile"/>
+    <type byte="6"  category="Scenery"/>
+    <type byte="7"  category="Machine"/>
+    <type byte="8"  category="Control"/>
+    <type byte="9"  category="Sound Scenery"/>
+    <type byte="10" category="Crate"/>
+    <type byte="11" category="Creature"/>
+    <type byte="12" category="Giant"/>
+    <type byte="13" category="FX Scenery"/>
+  </enum>
+
+  <enum name="HaloReach">
+    <type byte="0"  category="Biped"/>
+    <type byte="1"  category="Vehicle"/>
+    <type byte="2"  category="Weapon"/>
+    <type byte="3"  category="Equipment"/>
+    <type byte="4"  category="Terminal"/>
+    <type byte="5"  category="Projectile"/>
+    <type byte="6"  category="Scenery"/>
+    <type byte="7"  category="Machine"/>
+    <type byte="8"  category="Control"/>
+    <type byte="9"  category="Sound Scenery"/>
+    <type byte="10" category="Crate"/>
+    <type byte="11" category="Creature"/>
+    <type byte="12" category="Unknown"/>
+    <type byte="13" category="FX Scenery"/>
+    <type byte="14" category="Unknown"/>
+    <type byte="15" category="Unknown"/>
+    <type byte="16" category="Unknown"/>
+    <type byte="17" category="Unknown"/>
+    <type byte="18" category="Unknown"/>
+    <type byte="19" category="Unknown"/>
+    <type byte="20" category="Unknown"/>
+  </enum>
+
+  <enum name="Halo4">
+    <type byte="0"  category="Biped"/>
+    <type byte="1"  category="Vehicle"/>
+    <type byte="2"  category="Weapon"/>
+    <type byte="3"  category="Equipment"/>
+    <type byte="4"  category="Garbage"/>
+    <type byte="5"  category="Projectile"/>
+    <type byte="6"  category="Scenery"/>
+    <type byte="7"  category="Machine"/>
+    <type byte="8"  category="Control"/>
+    <type byte="9"  category="Sound Scenery"/>
+    <type byte="10" category="Creature"/>
+    <type byte="11" category="Effect Scenery"/>
+  </enum>
+
+  <enum name="Halo3">
+    <type byte="0"  category="Biped"/>
+    <type byte="1"  category="Vehicle"/>
+    <type byte="2"  category="Weapon"/>
+    <type byte="3"  category="Equipment"/>
+    <type byte="4"  category="Terminal"/>
+    <type byte="5"  category="Projectile"/>
+    <type byte="6"  category="Scenery"/>
+    <type byte="7"  category="Machine"/>
+    <type byte="8"  category="Control"/>
+    <type byte="9"  category="Sound Scenery"/>
+    <type byte="10" category="Crate"/>
+    <type byte="11" category="Creature"/>
+    <type byte="12" category="Unknown"/>
+    <type byte="13" category="FX Scenery"/>
+    <type byte="14" category="Unknown"/>
+    <type byte="15" category="Unknown"/>
+    <type byte="16" category="Unknown"/>
+    <type byte="17" category="Unknown"/>
+    <type byte="18" category="Unknown"/>
+    <type byte="19" category="Unknown"/>
+    <type byte="20" category="Unknown"/>
+  </enum>
+
+  <enum name="Halo3ODST">
+    <type byte="0"  category="Biped"/>
+    <type byte="1"  category="Vehicle"/>
+    <type byte="2"  category="Weapon"/>
+    <type byte="3"  category="Equipment"/>
+    <type byte="4"  category="Garbage"/>
+    <type byte="5"  category="Projectile"/>
+    <type byte="6"  category="Scenery"/>
+    <type byte="7"  category="Machine"/>
+    <type byte="8"  category="Control"/>
+    <type byte="9"  category="Sound Scenery"/>
+    <type byte="10" category="Creature"/>
+    <type byte="11" category="Effect Scenery"/>
+  </enum>
+
+  <enum name="Halo1">
+    <type byte="0"  category="Biped"/>
+    <type byte="1"  category="Vehicle"/>
+    <type byte="2"  category="Weapon"/>
+    <type byte="3"  category="Equipment"/>
+    <type byte="4"  category="Garbage"/>
+    <type byte="5"  category="Projectile"/>
+    <type byte="6"  category="Scenery"/>
+    <type byte="7"  category="Machine"/>
+    <type byte="8"  category="Control"/>
+    <type byte="9"  category="Light Fixture"/>
+    <type byte="10" category="Placeholder"/>
+    <type byte="11" category="Sound Scenery"/>
+  </enum>
+
+  <enum name="Halo2">
+    <type byte="0"  category="Biped"/>
+    <type byte="1"  category="Vehicle"/>
+    <type byte="2"  category="Weapon"/>
+    <type byte="3"  category="Equipment"/>
+    <type byte="4"  category="Garbage"/>
+    <type byte="5"  category="Projectile"/>
+    <type byte="6"  category="Scenery"/>
+    <type byte="7"  category="Machine"/>
+    <type byte="8"  category="Control"/>
+    <type byte="9"  category="Light Fixture"/>
+    <type byte="10" category="Placeholder"/>
+    <type byte="11" category="Sound Scenery"/>
+    <type byte="12" category="Crate"/>
+    <type byte="13" category="Creature"/>
+  </enum>
+
+</types>

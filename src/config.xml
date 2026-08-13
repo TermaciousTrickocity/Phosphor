@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mccconfig>
+
+  <game name="Halo: Campaign Evolved" process="HaloCampaignEvolved.exe" dll="halosimulation_tag_release.dll">
+    <pool   mode="TlsPtr" objectLoc="0x20" playerLoc="0x30" livePtrOff="0x50"/>
+    <header size="0x70" max="0x2C" sizeof="0x20" cap="0x44" next="0x40" sig="0x28" fields16="false"/>
+    <entry  playerCuOff="0x28" nameOff="0xB0" nameLen="16" serviceOff="0x108" serviceLen="8" typeOff="0x04" enumStyle="HaloCampaignEvolved"/>
+    <object baseMode="AbsPtr" ptrOff="0x10" loopBaseOff="0x0" tagDatumOff="0x00" posOff="0x20" oriOff="0x50" parentOff="0x14" childOff="0x10" siblingOff="0x0C"/>
+    <tag    mode="TagInstance" a="0x0182D1E8" b="0x0" c="0x0" pool="tag instance" recNameOff="0x10" recSaltOff="0x00"/>
+    <camera mode="TlsObserver" off0="0x4E8" off1="0x0" posOff="0x154" fwdOff="0x17C" upOff="0x188" fovOff="0x194" vfovOff="0x0" activeOff="0x150" fovSettingOff="0x171FF2C" fovRefAspect="1.7777778"/>
+  </game>
+
+  <game name="Halo: Reach" process="MCC-Win64-Shipping.exe" dll="haloreach.dll">
+    <pool   mode="RwLivePtr" objectLoc="0x00BA3034" playerLoc="0x00ABC6B0" livePtrOff="0x50"/>
+    <header size="0x70" max="0x2C" sizeof="0x20" cap="0x44" next="0x40" sig="0x28" fields16="false"/>
+    <entry  playerCuOff="0x28" nameOff="0xB0" nameLen="16" serviceOff="0xF4" serviceLen="8" typeOff="0x04" enumStyle="HaloReach"/>
+    <object baseMode="AbsPtr" ptrOff="0x10" loopBaseOff="0x0" tagDatumOff="0x00" posOff="0x20" oriOff="0x0" parentOff="0x14" childOff="0x10" siblingOff="0x0"/>
+    <tag    mode="PtrArray" a="0x01B04A48" b="0x0" c="0x0"/>
+    <camera mode="ModulePtr" off0="0x1901ED0" off1="0x944" posOff="0x0" fwdOff="0x28" upOff="0x34" fovOff="0x6C" vfovOff="0xC9FB08"/>
+  </game>
+
+  <game name="Halo 4" process="MCC-Win64-Shipping.exe" dll="halo4.dll">
+    <pool   mode="RwLivePtr" objectLoc="0x009D25E8" playerLoc="0x008A7CC4" livePtrOff="0x50"/>
+    <header size="0x70" max="0x2C" sizeof="0x20" cap="0x44" next="0x40" sig="0x28" fields16="false"/>
+    <entry  playerCuOff="0x28" nameOff="0xB0" nameLen="16" typeOff="0x04" enumStyle="Halo4"/>
+    <object baseMode="AbsPtr" ptrOff="0x10" loopBaseOff="0x0" tagDatumOff="0x08" posOff="0x40" oriOff="0x0" parentOff="0x24" childOff="0x20" siblingOff="0x1C"/>
+    <tag    mode="PtrArray" a="0x01AC2E38" b="0x0" c="0x0"/>
+    <camera mode="ModulePtr" off0="0x1B1E758" off1="0x9DC" posOff="0x0" fwdOff="0x28" upOff="0x34" fovOff="0x78" vfovOff="0x10DB008"/>
+  </game>
+
+  <game name="Halo 3" process="MCC-Win64-Shipping.exe" dll="halo3.dll">
+    <pool   mode="RwLivePtr" objectLoc="0x007B0BEC" playerLoc="0x00729E24" livePtrOff="0x48"/>
+    <header size="0x60" max="0x20" sizeof="0x24" cap="0x3C" next="0x38" sig="0x2C" fields16="false"/>
+    <entry  playerCuOff="0x28" nameOff="0x58" nameLen="16" typeOff="0x03" enumStyle="Halo3"/>
+    <object baseMode="AbsPtr" ptrOff="0x10" loopBaseOff="0x0" tagDatumOff="0x00" posOff="0x1C" oriOff="0x0" parentOff="0x10" childOff="0x0C" siblingOff="0x08"/>
+    <tag    mode="StructArray" a="0x001AE148" b="0x0" c="0x0"/>
+    <camera mode="ModulePtr" off0="0x125CB24" off1="0x824" posOff="0x0" fwdOff="0x28" upOff="0x34" fovOff="0x40" vfovOff="0x2D2F6B0"/>
+  </game>
+
+  <game name="Halo 3: ODST" process="MCC-Win64-Shipping.exe" dll="halo3odst.dll">
+    <pool   mode="RwLivePtr" objectLoc="0x007B77F4" playerLoc="0x0072DAF4" livePtrOff="0x48"/>
+    <header size="0x60" max="0x20" sizeof="0x24" cap="0x3C" next="0x38" sig="0x2C" fields16="false"/>
+    <entry  playerCuOff="0x28" nameOff="0x58" nameLen="16" typeOff="0x03" enumStyle="Halo3ODST"/>
+    <object baseMode="AbsPtr" ptrOff="0x10" loopBaseOff="0x0" tagDatumOff="0x00" posOff="0x1C" oriOff="0x0" parentOff="0x10" childOff="0x0C" siblingOff="0x08"/>
+    <tag    mode="StructArray" a="0x001BFFC8" b="0x0" c="0x0"/>
+    <camera mode="ModulePtr" off0="0x12C196C" off1="0x85C" posOff="0x0" fwdOff="0x28" upOff="0x34" fovOff="0x40" vfovOff="0x2D735C0"/>
+  </game>
+
+  <game name="Halo 2" process="MCC-Win64-Shipping.exe" dll="halo2.dll">
+    <pool   mode="DllPtr" objectLoc="0x018B7398" playerLoc="0x00E80A28" livePtrOff="0x0"/>
+    <header size="0x58" max="0x20" sizeof="0x24" cap="0x3C" next="0x38" sig="0x2C" fields16="false"/>
+    <entry  playerCuOff="0x2C" nameOff="0x0" nameLen="0" typeOff="0x03" enumStyle="Halo2"/>
+    <object baseMode="OffsetLoop" ptrOff="0x08" loopBaseOff="0x65D8" tagDatumOff="-0x438" posOff="-0x3F8" oriOff="0x0" parentOff="0x0" childOff="0x0" siblingOff="0x0"/>
+    <tag    mode="H2StringTable" a="0x015E4B68" b="0x015E4B78" c="0x0"/>
+    <camera mode="Module" off0="0x15F297C" off1="0x0" posOff="0x0" fwdOff="0x20" upOff="0x2C" fovOff="0x38" vfovOff="0x1997714"/>
+  </game>
+
+  <game name="Halo: CE" process="MCC-Win64-Shipping.exe" dll="halo1.dll">
+    <pool   mode="DllPtrMinus4" objectLoc="0x01C42248" playerLoc="0x01C40480" livePtrOff="0x0"/>
+    <header size="0x3C" max="0x24" sizeof="0x26" cap="0x22" next="0x30" sig="0x2C" fields16="true"/>
+    <entry  playerCuOff="0x64" nameOff="0x04" nameLen="12" typeOff="0x03" enumStyle="Halo1"/>
+    <object baseMode="OffsetMem" ptrOff="0x08" loopBaseOff="0x0" tagDatumOff="0x34" posOff="0x4C" oriOff="0x0" parentOff="0x0" childOff="0x0" siblingOff="0x0"/>
+    <tag    mode="H1Rebase" a="0x01C34FB0" b="0x02EA3410" c="0x02D9CE10"/>
+    <camera mode="Module" off0="0x2D9BDD4" off1="0x0" posOff="0x0" fwdOff="0x20" upOff="0x2C" fovOff="0x38" vfovOff="0x2D9CB08"/>
+  </game>
+
+</mccconfig>
